@@ -1,0 +1,46 @@
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+.head{
+	text-align: justify-all;
+	position: relative;
+}
+.headline{
+	border-bottom: 2px solid #000;
+	margin: 12px 0 12px 0;
+	text-transform: uppercase;
+	text-align: center;
+} 
+.collumn{
+	line-height: 20px;
+}
+.collumn .headline{
+	line-height: normal;
+}
+.collumn .headline.hl1{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-style: italic;
+    font-size: 24px;
+    padding: 10px 0 10px 0;
+}
+.content{
+	column-count: 4;
+	text-align: justify;
+}
+.subhead{
+	border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    padding: 12px 0 12px 0;
+    text-transform: uppercase;
+    text-align: center;
+
+}
